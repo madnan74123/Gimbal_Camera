@@ -1,7 +1,7 @@
 import cv2
 
 # Define the IP camera URL
-CAMERA_URL = "rtsp://192.168.144.11:8554/main.265"  # Replace with your camera's stream URL
+CAMERA_URL = "rtsp://192.168.144.15:8553/main.265"  # Replace with your camera's stream URL
 
 # Initialize video capture
 cap = cv2.VideoCapture(CAMERA_URL)
